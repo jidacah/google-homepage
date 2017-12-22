@@ -1,32 +1,153 @@
+* {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: block;
+	margin: 8px;
+}
+
 ul {
+	padding-top: 14px;
+	padding-right: 28px;
+	padding-left: 15px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent;
+/*	margin: 0;
+	padding: 0;
+	overflow: hidden; */  
+}
+
+/* ul, menu, dir {
+	display: block;
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+} */
+
+a {
+	text-decoration: none;
+	color: #333333;
+	font-size: 13px;
+}
+
+link {
+	display: none;
+}
+
+div {
+	display: block;
 }
 
 li {
     float: left;
+
 }
 
 li a {
     display: block;
-    color: black;
-    text-align: center;
-    padding: 15px 16px;
-    text-decoration: none;
-    font-family: Arial;
-    color: #333333;
-    font-size: 80%;
-}
+    padding: 8px;
+} 
 
 li a:hover {
     text-decoration: underline;
+    display: inline;
+    padding: 8px;
+    position: relative;
 }
 
-.googlelogo {
+#googlelogo {
 	display: block;
-	margin: 100px auto;
-	height: 100px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.toprightnav {
+	float: right;
+}
+
+.center {
+	margin: auto;
+	width: 550px;
+	padding-top: 160px;
+}
+
+#searchbar {
+	border: 1px;
+	border-color: #f2f2f2;
+	box-shadow: 1px 1px 5px gray;
+}
+
+#mic {
+	position: relative;
+	height: 20px;
+	left: -2%;
+	vertical-align: middle;
+}
+
+.searchbuttons {
+	margin-left: 25%;
+}
+
+.button {
+	display: inline;
+	margin: 15px 3px;
+	height: 40px;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	font-size: small;
+	font-weight: bold;
+	color: #757575;
+	line-height: 0;
+	padding: 14px;
+}
+
+input {
+	width: 90%;
+	padding: 12px;
+	font-size: 18px;
+	border: 0px;
+}
+
+.bottomnav {
+	background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 6px 14px 14px 12px;
+    display: inline-block;
+}
+
+.bottomrightnav {
+	float: right;
+	margin: 0;
+	padding-right: 28px;
+	display: inline-block;
+}
+
+#grid {
+	height: 16px;
+	vertical-align: middle;
+	opacity: 0.6;
+	padding-right: 5px;
+}
+
+#signin {
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    color: white;
+    padding: 0px 12px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: auto;
+    line-height: 28px;
+    border-radius: 2px;
 }
