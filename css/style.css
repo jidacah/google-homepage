@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #333333;
+    font-size: 80%;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.googlelogo {
+	display: block;
+	margin: 100px auto;
+	height: 100px;
+}
